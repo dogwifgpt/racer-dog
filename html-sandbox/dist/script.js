@@ -124,7 +124,7 @@ function updateGame() {
     // Increase difficulty as the score increases
     if (score % 1000 === 0) {
         gameSpeed += 0.5;
-        if (maxObstacles < 4) {
+        if (maxObstacles < 3) {
             maxObstacles += 1;
         }
         clearInterval(obstacleInterval);
